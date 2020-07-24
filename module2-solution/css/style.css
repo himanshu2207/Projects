@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Comic Sans MS','Comic Sans MS','Chalkduster',sans-serif;
+	font-family: 'Comic Sans MS','Comic Sans MS','Chalkduster',sans-serif
 }
 #start {
 	text-align: center;
@@ -32,21 +32,27 @@ p {
 #three {
 	background-color: #9ba307
 }
-@media (min-width: 992px) {
-	.col-lg-4 {
+@media (min-width:992px) {
+	.column1, .column2, .column3 {
 		float:left;
 		width:33.33%;
-		position: relative;
-		top:0px;
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6 {
+@media (max-width: 991px) and (min-width: 768px) {
+	.column1, .column2 {
 		width:50%;
 		float:left;
 	}
-	.col-lg-1 {
+	.column3 {
 		float:left;
 		width:100%;
 	}
 }
+@media (max-width: 767px) {
+	.column1, .column2, .column3 {
+
+		float: right;
+		width:100%;
+	}
+}
+
