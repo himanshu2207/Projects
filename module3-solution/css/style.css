@@ -20,10 +20,8 @@ body {
 ul {
 	border-color: 2px solid black;
 }
-#nav-list, h1 {
-	text-align: center;
-}
 #collapsable-nav {
+	background-color: #2fa6fa;
 	border-top:2px solid black;
 	border-bottom:2px solid black;
 }
@@ -40,6 +38,11 @@ ul {
 #top, #bee {
 	padding:15px;
 }
+#brand {
+	font-size:1.2em;
+	margin-left:20px;
+	padding-left:0;
+}
 #name {
 	margin:10px;
 	padding:15px;
@@ -47,21 +50,12 @@ ul {
 	font-size:1.5em; 
 	background-color: #f5ef40;
 	}
-#head {
-	text-align:center;
-}
 #menu {
 	padding-left:5px;
 	padding-right:5px;
-}
-@media (max-width: 767px){
-	#logo {
-		margin-left: 10px;
-	}
 }
 @media (max-width: 991px) and (min-width: 768px) {
 	#name {
 		margin-bottom:10px;
 	}
-}
 }
